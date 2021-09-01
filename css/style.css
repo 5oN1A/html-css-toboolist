@@ -15,6 +15,14 @@ main {
     padding-top: 30px;
 }
 
+ul {
+    list-style: none;
+}
+
+h3 {
+    font-weight: 800;
+}
+
 
 #brand {
     font-size: 40px;
@@ -38,6 +46,7 @@ main {
     width: 60%;
     margin: auto;
     background-color: white;
+    padding-bottom: 30px;
 
 }
 
@@ -71,12 +80,13 @@ main {
 }
 
 .round {
-    width: 20px;
-    height: 20px;
-    
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
     text-align: center;
     border-radius: 50%;
     display: inline-block;
+    margin-right: 5px;
 }
 
 .cross {
@@ -85,7 +95,47 @@ main {
 }
 
 .checkmark {
-    border: 1px solid green;
-    color: green;
+    border: 1px solid lightgreen;
+    color: lightgreen;
 }
 
+.riga {
+    margin: 10px 0 10px 5px ;
+}
+
+.punto {
+    font-weight: 600;
+}
+
+.agm {
+    font-size: 10px;
+    padding: 8px 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.editorial {
+    background-color: #45abea;
+}
+
+.q1goals {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #b0c925;
+}
